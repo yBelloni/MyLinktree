@@ -13,4 +13,7 @@ function lightMode() {
     IconsLinks.classList.toggle("toggleIcons");
     var IconsLinks = document.getElementById("colorIcon5")
     IconsLinks.classList.toggle("toggleIcons");
+    var titulo = document.getElementById("title")
+    titulo.classList.toggle("border-botton-title");
+
 }
